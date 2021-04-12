@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    color: white;
+    background-color: teal;
+    justify-content: space-around;
+}
+header>div>ul{
+    display: flex;
+    align-items: center;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: tomato;
+}
+section>img{
+    height: 33%;
+    width: 33%;
+}
+section>h1,p{
+    color: white;
+}
